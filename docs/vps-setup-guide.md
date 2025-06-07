@@ -208,8 +208,8 @@ Features:
 
 ---
 
-> 🚨 **<span style="color:red">IMPORTANT:</span>**  
-> **<span style="color:red">For any subsequent issues such as lag, terminal freezes, or inability to connect via SSH, rebooting the VPS often resolves the problem.</span>**
+> 🚨 **‼️ IMPORTANT ‼️**  
+> **For any subsequent issues such as lag, terminal freezes, or inability to connect via SSH, rebooting the VPS often resolves the problem.**
 
 ![life_saver](/screenshots/life_saver.png)
 
