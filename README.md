@@ -1,5 +1,5 @@
 # oracle-free-vps-dev-setup
-A step-by-step guide to set up a free Debian VPS on Oracle Cloud for C/C++ development using VS Code.
+A step-by-step guide to set up a free Debian VPS on Oracle Cloud for C development using VS Code.
 
 # Oracle Free VPS for C Development
 
@@ -13,7 +13,7 @@ Set up a free Debian-based cloud development environment on Oracle Cloud Infrast
 - 🐧 Debian 12 cloud image setup
 - 🔐 SSH key authentication
 - 💻 Remote development with VS Code
-- ⚙️ Installation of essential C/C++ build tools
+- ⚙️ Installation of essential C build tools
 
 ---
 
@@ -22,7 +22,6 @@ Set up a free Debian-based cloud development environment on Oracle Cloud Infrast
 - Oracle Cloud account with Always Free quota
 - Basic terminal knowledge
 - VS Code installed with the [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) extension
-- An SSH key pair (`.key` or `.pem` file)
 
 ---
 
@@ -34,9 +33,9 @@ Set up a free Debian-based cloud development environment on Oracle Cloud Infrast
 - Go to **Compute → Instances → Create Instance**
 - Choose:
   - **Shape**: `VM.Standard.A1.Flex` (ARM, Always Free) or `VM.Standard.E2.1.Micro` (AMD, Always Free)
-  - **Image**: Debian 12 ARM or AMD
+  - **Image**: Debian (custom image)
   - **Network**: Create new VCN and subnet (public)
-  - **SSH key**: Paste your public key
+  - **SSH key**: download your private key
 - Under `Advanced → Networking`, ensure:
   - Public IPv4 address is enabled
   - Security list allows **port 22 (SSH)** from `0.0.0.0/0`
