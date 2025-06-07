@@ -185,6 +185,7 @@ ssh <Your Server Name>
 ```
 
 example:
+
 ![check_ip](/screenshots/ssh.png)
 
 ---
@@ -210,6 +211,13 @@ You now have a free VPS running Debian 12 with C development tools installed, ac
 No more confusing discrepancies between your environment and the 42 school's setup!
 
 Enjoy, and you're very welcome!
+
+---
+
+## ❓ Questions or Issues?
+
+I'm still learning, so if you notice anything missing or unclear, please don't hesitate to leave a message 💬 or get in touch with me 📩.
+Your feedback is greatly appreciated! 
 
 ---
 
