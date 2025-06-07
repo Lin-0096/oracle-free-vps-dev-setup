@@ -184,7 +184,7 @@ Then connect using:
 ssh <Your Server Name>
 ```
 
-example:
+example:  
 
 ![check_ip](/screenshots/ssh.png)
 
@@ -208,7 +208,7 @@ It will update&upgrade old packages and install C Development Tools(gcc, g++, ma
 ## ✅ Done!
 
 You now have a free VPS running Debian 12 with C development tools installed, accessible remotely via SSH through VS Code.  
-No more confusing discrepancies between your environment and the 42 school's setup!
+No more confusing discrepancies between your environment and the 42 school's setup!  
 
 Enjoy, and you're very welcome!
 
@@ -216,7 +216,8 @@ Enjoy, and you're very welcome!
 
 ## ❓ Questions or Issues?
 
-I'm still learning, so if you notice anything missing or unclear, please don't hesitate to leave a message 💬 or get in touch with me 📩.
+I'm still learning, so if you notice anything missing or unclear, please don't hesitate to leave a message 💬 or get in touch with me 📩. 
+
 Your feedback is greatly appreciated! 
 
 ---
