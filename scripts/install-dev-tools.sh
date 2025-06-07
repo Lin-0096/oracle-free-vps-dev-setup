@@ -19,6 +19,6 @@ echo "Installing Git version control..."
 sudo apt install -y git
 
 echo "Installing file navigation and terminal tools..."
-sudo apt install -y tree htop curl unzip nano vim 
+sudo apt install -y tree wget curl unzip nano vim 
 
 echo "Development environment is ready!"
