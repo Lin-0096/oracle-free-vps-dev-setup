@@ -121,9 +121,10 @@ You can use the same method to create and upload any custom images you want to i
 
 ![create_image1](/screenshots/create_image1.png)
 ![create_image2](/screenshots/create_image2.png)
-![create_image3](/screenshots/create_image3.png)
+
 ![create_shape1](/screenshots/create_shape1.png)
 ![create_shape2](/screenshots/create_shape2.png)
+![create_shape3](/screenshots/create_shape3.png)
 ---
 
 ### 4. Networking Settings
@@ -149,7 +150,7 @@ You can use the same method to create and upload any custom images you want to i
 - Boot volume:
   - Size: `50 GB`
   - VPU: `10`
-  
+
 ![storage](/screenshots/storage.png)
 
 ---
