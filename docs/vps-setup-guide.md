@@ -201,11 +201,19 @@ chmod +x install-dev-tools.sh
 ./install-dev-tools.sh
 ```
 
-It will update&upgrade old packages and install C Development Tools(gcc, g++, make, git, gdb, clang, valgrind) and file navigation and terminal tools...
+Features:
+- 1. Creates and enables a 1GB swap file to extend system memory, improve stability, and reduce freezing caused by low RAM.
+- 2. Update&upgrade old packages.
+- 3. Install C Development Tools(gcc, g++, make, git, gdb, clang, valgrind) and file navigation and terminal tools.
 
 ---
 
-## ✅ Done!
+> 🚨 **<span style="color:red">IMPORTANT:</span>**  
+> **<span style="color:red">For any subsequent issues such as lag, terminal freezes, or inability to connect via SSH, rebooting the VPS often resolves the problem.</span>**
+
+![life_saver](/screenshots/life_saver.png)
+
+## ✅ Done! 
 
 You now have a free VPS running Debian 12 with C development tools installed, accessible remotely via SSH through VS Code.  
 No more confusing discrepancies between your environment and the 42 school's setup!  
