@@ -26,7 +26,7 @@ Set up a free Debian-based cloud development environment on Oracle Cloud Infrast
 
 ---
 
-## ⚙️ Step-by-Step Guide
+## ⚙️ [Step-by-Step Guide](/docs/vps-setup-guide.md/)
 
 ### 1. Provision a Free VPS
 
@@ -48,7 +48,7 @@ Set up a free Debian-based cloud development environment on Oracle Cloud Infrast
 - Use the following config in `~/.ssh/config`:
 
 ```ssh
-Host oracle-vps
-    HostName <YOUR_PUBLIC_IP>
-    User opc
+Host <Your Server Name>
+    HostName <YOUR PUBLIC IP>
+    User debian
     IdentityFile ~/path/to/your/private-key.key
